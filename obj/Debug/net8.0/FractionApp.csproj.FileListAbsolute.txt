@@ -1,0 +1,14 @@
+/Users/asimeir/code/C#/FractionApp/bin/Debug/net8.0/FractionApp
+/Users/asimeir/code/C#/FractionApp/bin/Debug/net8.0/FractionApp.deps.json
+/Users/asimeir/code/C#/FractionApp/bin/Debug/net8.0/FractionApp.runtimeconfig.json
+/Users/asimeir/code/C#/FractionApp/bin/Debug/net8.0/FractionApp.dll
+/Users/asimeir/code/C#/FractionApp/bin/Debug/net8.0/FractionApp.pdb
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.AssemblyInfoInputs.cache
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.AssemblyInfo.cs
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.csproj.CoreCompileInputs.cache
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.dll
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/refint/FractionApp.dll
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.pdb
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.genruntimeconfig.cache
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/ref/FractionApp.dll
