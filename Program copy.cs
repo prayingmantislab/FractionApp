@@ -1,84 +1,63 @@
-﻿// using System;
-
-// class Program
+﻿// static void Main(string[] args)
 // {
-//   static void Main()
-//   {
+//     Console.WindowWidth = 60;
+//     Console.WindowHeight = 20;
+//     Console.BufferWidth = 60;
+//     Console.BufferHeight = 20;
+
 //     while (true)
 //     {
-//       Console.Write("Enter the first fraction (numerator/denominator): ");
-//       string? line = Console.ReadLine();
-//       Fraction? f1 = null;
-//       if (line != null)
-//       {
-//         string[] input1 = line.Split('/');
-//         int n1 = int.Parse(input1[0]);
-//         int d1 = int.Parse(input1[1]);
-//         f1 = new Fraction(n1, d1);
-//       }
-//       else
-//       {
-//         Console.WriteLine("Invalid input. Please enter a fraction in the format numerator/denominator.");
-//         continue;
-//       }
+//         Console.Clear();
+//         Console.ForegroundColor = ConsoleColor.Green;
+//         DrawBorder();
+//         Console.SetCursorPosition(2, 2);
+//         Console.Write("מחשבון שברים");
+//         Console.SetCursorPosition(2, 4);
+//         Console.ForegroundColor = ConsoleColor.Cyan;
+//         Console.Write("הזן מונה לשבר הראשון: ");
+//         int n1 = int.Parse(Console.ReadLine());
 
-//       Console.Write("Enter the second fraction (numerator/denominator): ");
-//       line = Console.ReadLine();
-//       Fraction? f2 = null;
-//       if (line != null)
-//       {
-//         string[] input2 = line.Split('/');
-//         int n2 = int.Parse(input2[0]);
-//         int d2 = int.Parse(input2[1]);
-//         f2 = new Fraction(n2, d2);
-//       }
-//       else
-//       {
-//         Console.WriteLine("Invalid input. Please enter a fraction in the format numerator/denominator.");
-//         continue;
-//       }
+//         Console.Write("הזן מכנה לשבר הראשון: ");
+//         int d1 = int.Parse(Console.ReadLine());
 
-//       Console.WriteLine("\nChoose an operation:");
-//       Console.WriteLine("1. Addition");
-//       Console.WriteLine("2. Subtraction");
-//       Console.WriteLine("3. Multiplication");
-//       Console.WriteLine("4. Division");
-//       Console.WriteLine("5. Exit");
+//         Console.ForegroundColor = ConsoleColor.Magenta;
+//         Console.Write($"\n\t{n1}/{d1}\n");
 
-//       int choice;
-//       if (line != null)
-//       {
-//         choice = int.Parse(line);
-//       }
-//       else
-//       {
-//         Console.WriteLine("Invalid input. Please enter a number between 1 and 5.");
-//         continue;
-//       }
+//         // ... (קוד דומה להזנת השבר השני והפעולה החשבונית)
 
-//       switch (choice)
-//       {
-//         case 1:
-//           Fraction sum = f1.Add(f2);
-//           Console.WriteLine($"{f1} + {f2} = {sum}");
-//           break;
-//         case 2:
-//           // Implement subtraction
-//           break;
-//         case 3:
-//           // Implement multiplication
-//           break;
-//         case 4:
-//           // Implement division
-//           break;
-//         case 5:
-//           return;
-//         default:
-//           Console.WriteLine("Invalid choice!");
-//           break;
-//       }
+//         Fraction f1 = new Fraction(n1, d1);
+//         Fraction f2 = new Fraction(n2, d2);
 
-//       Console.WriteLine();
+//         Fraction result;
+//         switch (op)
+//         {
+//             case '+':
+//                 result = f1.Add(f2);
+//                 Console.ForegroundColor = ConsoleColor.Yellow;
+//                 Console.Write($"\n\t{f1} + {f2} = {result}\n");
+//                 break;
+//             // ... (טיפול בפעולות חשבוניות נוספות)
+//         }
+
+//         Console.ResetColor();
+//         Console.Write("\nלחץ 'x' לצאת או כל מקש אחר להמשיך...");
+//         if (Console.ReadKey().Key == ConsoleKey.X)
+//             break;
 //     }
-//   }
+// }
+
+// static void DrawBorder()
+// {
+//     Console.ForegroundColor = ConsoleColor.DarkYellow;
+//     Console.SetCursorPosition(0, 0);
+//     Console.Write("╔═══════════════════════════════════════╗");
+//     for (int i = 1; i < 6; i++)
+//     {
+//         Console.SetCursorPosition(0, i);
+//         Console.Write("║");
+//         Console.SetCursorPosition(39, i);
+//         Console.Write("║");
+//     }
+//     Console.SetCursorPosition(0, 6);
+//     Console.Write("╚═══════════════════════════════════════╝");
 // }
