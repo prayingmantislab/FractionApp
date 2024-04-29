@@ -9,8 +9,6 @@ public class Fraction
     {
         this.n = n;
         this.d = d;
-        this.whole = n / d;
-        this.n = n % d;
     }
 
     public int GetN()
@@ -43,14 +41,15 @@ public class Fraction
         this.whole = whole;
     }
 
-    public override string ToString()
-    {
-        if (whole == 0)
-            return $"{n}/{d}";
-        else
-            return $"{whole} {n}/{d}";
-    }
-
+public override string ToString()
+{
+    int whole = n / d;
+    int remainder = n % d;
+    if (whole == 0)
+        return $"{remainder}/{d}";
+    else
+        return $"{whole} {remainder}/{d}";
+}
     public int CommonDen()
     {
         int a = Math.Abs(n);

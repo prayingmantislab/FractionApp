@@ -12,3 +12,4 @@
 /Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.pdb
 /Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.genruntimeconfig.cache
 /Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/ref/FractionApp.dll
+/Users/asimeir/code/C#/FractionApp/obj/Debug/net8.0/FractionApp.sourcelink.json
