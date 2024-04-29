@@ -83,4 +83,19 @@ public override string ToString()
         result.Reduce();
         return result;
     }
+    public Fraction Subtract(Fraction other)
+    {
+        // Find common denominator
+        int commonDenominator = this.d * other.d;
+
+        // Convert fractions to have common denominator
+        int thisNumerator = this.n * other.d;
+        int otherNumerator = other.n * this.d;
+
+        // Subtract the numerators
+        int resultNumerator = thisNumerator - otherNumerator;
+
+        // Create and return new Fraction object with the result
+        return new Fraction(resultNumerator, commonDenominator);
+    }
 }

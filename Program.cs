@@ -34,13 +34,16 @@ class Program
                     Console.WriteLine($"{f1} + {f2} = {sum}");
                     break;
                 case 2:
-                    // Implement subtraction
+                    Fraction difference = f1.Subtract(f2);
+                    Console.WriteLine($"{f1} - {f2} = {difference}");
                     break;
                 case 3:
-                    // Implement multiplication
+                    // Fraction product = f1.Multiply(f2);
+                    // Console.WriteLine($"{f1} * {f2} = {product}");
                     break;
                 case 4:
-                    // Implement division
+                    // Fraction quotient = f1.Divide(f2);
+                    // Console.WriteLine($"{f1} / {f2} = {quotient}");
                     break;
                 case 5:
                     return;
