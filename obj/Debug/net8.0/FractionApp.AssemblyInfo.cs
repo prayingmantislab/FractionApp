@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FractionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1eed679a654e84e4317fda65ac9647b3127d6c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+678f5102ac5812ea7bb69bc73e5fe43324eeebdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FractionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FractionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
