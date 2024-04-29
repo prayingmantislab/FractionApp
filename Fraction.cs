@@ -109,4 +109,15 @@ public override string ToString()
         // Create and return new Fraction object with the result
         return new Fraction(resultNumerator, resultDenominator);
     }
+    public Fraction Divide(Fraction other)
+    {
+        // Multiply the numerator of the first fraction by the denominator of the second
+        int resultNumerator = this.n * other.d;
+
+        // Multiply the denominator of the first fraction by the numerator of the second
+        int resultDenominator = this.d * other.n;
+
+        // Create and return new Fraction object with the result
+        return new Fraction(resultNumerator, resultDenominator);
+    }
 }
