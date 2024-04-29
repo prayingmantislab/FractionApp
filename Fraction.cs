@@ -98,4 +98,15 @@ public override string ToString()
         // Create and return new Fraction object with the result
         return new Fraction(resultNumerator, commonDenominator);
     }
+    public Fraction Multiply(Fraction other)
+    {
+        // Multiply the numerators
+        int resultNumerator = this.n * other.n;
+
+        // Multiply the denominators
+        int resultDenominator = this.d * other.d;
+
+        // Create and return new Fraction object with the result
+        return new Fraction(resultNumerator, resultDenominator);
+    }
 }
